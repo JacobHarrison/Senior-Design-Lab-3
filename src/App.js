@@ -3,11 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div class="App">
+    <div class="App"> 
           <div class="header">
               <pageHeader>Page Header Goes Here!</pageHeader>
           </div>
-          <div class="databox">Data and Plots Go Here!</div>
+          <div class="databox" id="dbox">Data and Plots Go Here!</div>
           <div class="item">
               <label for="textEntry">Press button to update button's text with value of text field</label></div>
           <div class="item">
