@@ -12,7 +12,7 @@ export default function Harrison() {
                 <input type="text" id="tEntry" name="textEntry"></input></div>
             <div class="item4">
                 <button id="btn" onClick={clickText}>Login Button</button></div>
-            <div class="scroll">Basic description of our team here</div>
+            <div class="scroll">Stuff about me here, github/life/job/school/fun/awards/etc</div>
         </h>
     )    
 }
