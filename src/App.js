@@ -1,21 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
 
+
+
+
 function App() {
   return (
     <div class="App"> 
           <div class="header">
-              <pageHeader>Page Header Goes Here!</pageHeader>
+              <pageHeader>Team 13 - Killed DeBug!</pageHeader>
           </div>
-          <div class="databox" id="dbox">Data and Plots Go Here!</div>
-          <div class="item">
-              <label for="textEntry">Press button to update button's text with value of text field</label></div>
-          <div class="item">
+          <button id="homeBtn">Jacob Harrison</button>
+          <button id="JHBtn">Jacob Wiley</button>
+          <button id="JWBtn">Home Page</button>
+          <button id="MBBtn">Max Barten</button>
+          <button id="TPBtn">Thomas Pawlowski</button>
+          <img class="image" src={process.env.PUBLIC_URL + "testImage.PNG"} />
+          <div class="item1">Jacob Harrison</div>
+          <div class="item2">cobplaystation@gmail.com</div>
+          <div class="item1">
               <input type="text" id="tEntry" name="textEntry"></input></div>
-          <div class="item">
+          <div class="item2">
               <button id="btn" onClick={clickText}>Login Button</button></div>
-          <div class="scroll">
-              random wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom wordsrandom words</div>
+          <div class="scroll">Basic description of our team here</div>
     </div>
   );
 }
