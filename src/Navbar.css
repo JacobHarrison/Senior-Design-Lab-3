@@ -1,0 +1,64 @@
+﻿.nav {
+    margin-left: auto;
+    margin-right: auto;
+    grid-column-start: 1;
+    grid-column-end: span 5;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 2rem;
+    padding: 0 1rem;
+    border-radius: 10px;
+}
+
+.nav ul {
+    padding: 5px;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    grid-gap: 1rem;
+}
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: .25rem;
+}
+
+.nav li.active {
+    background-color: black;
+}
+
+.customUL {
+    grid-row-start: 1;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.customUL a::before {
+    content: '';
+    display: block;
+    height: 2.5px;
+    background-color: rgb(253 218 37);
+    position: absolute;
+    top: 0px;
+    width: 0%;
+    transition: all ease-in-out 500ms
+}
+
+.customUL a:hover::before {
+    width: 100%;
+}
+
+.tab {
+    display: inline-block;
+    margin: auto;
+    padding-bottom: 20px;
+    position: relative;
+}
