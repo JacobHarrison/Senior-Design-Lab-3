@@ -35,9 +35,6 @@ function App() {
     </div>
   );
 }
-function clickText() {
-    var textValue = document.getElementById("tEntry").value;
-    document.getElementById("btn").textContent = textValue;
-}
+
 
 export default App;

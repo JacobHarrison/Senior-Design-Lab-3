@@ -3,7 +3,7 @@
     margin-right: auto;
     grid-column-start: 1;
     grid-column-end: span 5;
-    background-color: #333;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -11,6 +11,7 @@
     grid-gap: 2rem;
     padding: 0 1rem;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .nav ul {
@@ -31,7 +32,8 @@
 }
 
 .nav li.active {
-    background-color: black;
+    background-color: rgb(253 218 37);
+    color: black;
 }
 
 .customUL {
@@ -62,3 +64,4 @@
     padding-bottom: 20px;
     position: relative;
 }
+

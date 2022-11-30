@@ -5,7 +5,7 @@ export default function Harrison() {
             <div class="header">
                 <pageHeader>Team 13 - Killed DeBug!</pageHeader>
             </div>
-            <img class="image" src={process.env.PUBLIC_URL + "testImage.PNG"} />
+            <img class="image" src={process.env.PUBLIC_URL + "imgJH1.PNG"} />
             <div class="item1">Jacob Harrison</div>
             <div class="item2">cobplaystation@gmail.com</div>
             <div class="item3">
