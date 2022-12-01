@@ -6,7 +6,7 @@
     border-radius: 10px; /* This makes the edges smooth */
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr auto; /* even fraction sizes */
     grid-auto-rows: minmax(150px, auto);
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr auto;
+    grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr auto;
     /*grid-auto-columns: minmax(150px, auto);*/
 }
 .header {
