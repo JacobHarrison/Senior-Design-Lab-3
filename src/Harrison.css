@@ -32,7 +32,8 @@
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: span 4;
-    overflow: scroll;
+    text-align: left;
+    overflow: visible;
     background: white;
     padding: 10px;
 }
@@ -66,7 +67,7 @@
     padding: 0px;
     font-size: 30px;
     text-align: center;
-    color: rgb(253 218 37);
+    color: black;
 }
 
 .item4 {
@@ -78,6 +79,24 @@
     font-size: 30px;
     text-align: center;
     color: rgb(253 218 37);
+    background: radial-gradient( 
+        circle 500px,
+        rgb(253 218 37),
+        black,
+        white,
+        rgb(253 218 37),
+        black,
+        white,
+        rgb(253 218 37),
+        black,
+        white
+    );
+    background-size: 100%;
+    animation: bg-animation 5s infinite alternate;
+}
+@keyframes bg-animation {
+    0% {background-size: 0%; }
+    100% {background-size: 100%; }
 }
 
 .image1 {
