@@ -3,12 +3,14 @@ import Max from './Max'
 import Thomas from './Thomas'
 import Wiley from './Wiley'
 import Harrison from './Harrison'
+import Intro from './Intro'
 import './Navbar.css';
 
 export default function Navbar() {
     return <nav class="nav">
         <ul class="customUL">
             <CustomLink href="/" class="tab">Home</CustomLink>
+            <CustomLink href="/intro" class="tab">Intro</CustomLink>
             <CustomLink href="/barton" class="tab">Max Barton</CustomLink>
             <CustomLink href="/harrison" class="tab">Jacob Harrison</CustomLink>
             <CustomLink href="/pawlowski" class="tab">Thomas Pawlowski</CustomLink>
@@ -16,6 +18,7 @@ export default function Navbar() {
         </ul>
         <routes class="routes">
             <route path="/" element={<Home />} />
+            <route path="intro" element={<Intro />} />
             <route path="Max" element={<Max />} />
             <route path="Thomas" element={<Thomas />} />
             <route path="Harrison" element={<Harrison />} />

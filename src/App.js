@@ -6,13 +6,16 @@ import Thomas from './Thomas';
 import Wiley from './Wiley';
 import Max from './Max';
 import Home from './Home';
-
+import Intro from './Intro';
 
 function App() {
     let Component
     switch (window.location.pathname) {
         case "/":
             Component = Home
+            break
+        case "/intro":
+            Component = Intro
             break
         case "/barton":
             Component = Max
