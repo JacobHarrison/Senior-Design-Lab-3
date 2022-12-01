@@ -8,7 +8,6 @@ import Max from './Max';
 import Home from './Home';
 
 
-
 function App() {
     let Component
     switch (window.location.pathname) {
@@ -31,7 +30,7 @@ function App() {
     return (
     <div class="App"> 
             <Navbar />
-            <Component class="comp"/>
+            <Component class="comp" />
     </div>
   );
 }

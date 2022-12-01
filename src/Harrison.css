@@ -6,7 +6,7 @@
     border-radius: 10px; /* This makes the edges smooth */
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr auto; /* even fraction sizes */
     grid-auto-rows: minmax(150px, auto);
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr auto;
     /*grid-auto-columns: minmax(150px, auto);*/
 }
 .header {
@@ -14,10 +14,12 @@
     grid-column-end: span 5;
     grid-row-start: 1;
     border: 1px solid #fff;
-    padding: 20px;
+    border-radius: 10px;
+    padding: 15px;
     font-size: 60px;
     text-align: center;
-    background: white;
+    background: rgb(153 153 153);
+    margin: auto;
 }
 
 #btn {
@@ -78,12 +80,12 @@
     color: rgb(253 218 37);
 }
 
-.image {
+.image1 {
     grid-column-start: 1;
     grid-column-end: span 2;
     grid-row-start: 2;
-    grid-row-end: span 4;
-    border: 1px solid #fff;
+    grid-row-end: span 2;
+    border: 0px solid #fff;
     padding: 20px;
     display: block;
     margin-left: auto;
@@ -93,3 +95,25 @@
     width: 80%;
     height: 80%;
 }
+.image2 {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    grid-row-start: 4;
+    grid-row-end: span 2;
+    border: 0px solid #fff;
+    padding: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 80%;
+    height: 80%;
+}
+.commentbox {
+    grid-row-start: 6;
+    grid-column-start: 1;
+    grid-row-end: span 1;
+    grid-column-end: span 5;
+}
+
