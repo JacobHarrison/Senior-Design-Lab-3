@@ -10,16 +10,31 @@
     object-fit: cover;
     /*grid-auto-columns: minmax(150px, auto);*/
 }
-.grid-container img {
-    border: 0px solid #fff;
-    padding: 0px;
-    max-width: 100%;
-    height: auto;
-    object-fit: cover;
+
+    .grid-container img {
+        border: 5px solid #fff;
+        padding: 0px;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-column: span 4;
+        grid-row: span 4;
+        height: 100%;
+        width: auto;
+    }
+
+.header {
     grid-column-start: 1;
+    grid-column-end: span 4;
     grid-row-start: 1;
-    grid-column: span 4;
-    grid-row: span 4;
-    height: 100%;
-    width: auto;
+    grid-row-end: 1;
+    border: 10px solid white;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 80px;
+    text-align: center;
+    background: rgb(253 218 37);
+    margin-top: 0px;
 }

@@ -9,6 +9,7 @@
     grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr auto;
     /*grid-auto-columns: minmax(150px, auto);*/
 }
+
 .header {
     grid-column-start: 1;
     grid-column-end: span 5;
@@ -63,6 +64,8 @@
 
 .item3 {
     grid-row-start: 4;
+    grid-row: span 1;
+    grid-column-start: 3;
     background-color: rgb(253 218 37);
     background-size: contain;
     border: 10px solid #fff;
@@ -74,32 +77,27 @@
 
 .item4 {
     grid-row-start: 5;
+    grid-column-start: 3;
     background-color: black;
     background-size: contain;
     border: 10px solid #fff;
     padding: 0px;
     font-size: 30px;
     text-align: center;
-    color: black;
-    background: radial-gradient( 
-        circle 500px,
-        rgb(253 218 37),
-        black,
-        white,
-        rgb(253 218 37),
-        black,
-        white,
-        rgb(253 218 37),
-        black,
-        white
-    );
-
+    color: white;
+    background: radial-gradient( circle 500px, rgb(253 218 37), black, white, rgb(253 218 37), black, white, rgb(253 218 37), black, white );
     background-size: 100%;
     animation: bg-animation 5s infinite alternate;
 }
+
 @keyframes bg-animation {
-    0% {background-size: 0%; }
-    100% {background-size: 100%; }
+    0% {
+        background-size: 0%;
+    }
+
+    100% {
+        background-size: 100%;
+    }
 }
 
 .image1 {
@@ -117,6 +115,7 @@
     width: 80%;
     height: 80%;
 }
+
 .image2 {
     grid-column-start: 1;
     grid-column-end: span 2;
@@ -132,10 +131,10 @@
     width: 80%;
     height: 80%;
 }
+
 .commentbox {
     grid-row-start: 6;
     grid-column-start: 1;
     grid-row-end: span 1;
     grid-column-end: span 5;
 }
-

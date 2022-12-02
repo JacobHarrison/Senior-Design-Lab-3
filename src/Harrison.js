@@ -29,11 +29,11 @@ export default function Harrison() {
                 <b>Jacob Harrison<br />
                 cobplaystation@gmail.com<br />
                 309-992-0083<br />
-                <br />
-                <a href="https://github.com/jacobharrison">Click for Github!</a><br />
-                <br />
-                <br />
-                <a href="https://linkedin.com/in/jacob-harrison-404b4724a">Click for LinkedIn!</a><br /></b>
+                    <br />
+                    <a href="https://github.com/jacobharrison">Click for Github!</a><br />
+                    <br />
+                    <br />
+                    <a href="https://linkedin.com/in/jacob-harrison-404b4724a">Click for LinkedIn!</a><br /></b>
             </div>
             <PageWithComments />
             <div class="item2"><b>BSE., Computer Science and Engineering - 2023<br />University of Iowa<br /><br />Fatigue analysis research paper coming soon!</b></div>
@@ -138,10 +138,5 @@ export default function Harrison() {
                 </div>
             </div>
         </h>
-    )    
-}
-
-function clickText() {
-    var textValue = document.getElementById("tEntry").value;
-    document.getElementById("btn").textContent = textValue;
+    )
 }

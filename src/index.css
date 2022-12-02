@@ -8,9 +8,5 @@ body {
 /* #id is used to adjust the features of an element based on its ID*/
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
-
-
-

@@ -17,7 +17,7 @@ function App() {
         case "/intro":
             Component = Intro
             break
-        case "/barton":
+        case "/barten":
             Component = Max
             break
         case "/harrison":
@@ -31,11 +31,11 @@ function App() {
             break
     }
     return (
-    <div class="App"> 
+        <div class="App">
             <Navbar />
             <Component class="comp" />
-    </div>
-  );
+        </div>
+    );
 }
 
 

@@ -1,4 +1,4 @@
-﻿﻿.grid-container {
+﻿.grid-container {
     display: grid;
     background-color: black;
     background-size: cover;
@@ -10,17 +10,18 @@
     /*grid-auto-columns: minmax(150px, auto);*/
 }
 
-.grid-container img {
-    border: 0px solid #fff;
-    padding: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    width: 80%;
-    height: 80%;
-}
+    .grid-container img {
+        border: 0px solid #fff;
+        padding: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 80%;
+        height: 80%;
+    }
+
 .aboutMax {
     grid-column-start: 2;
     grid-column-end: 2;
@@ -31,6 +32,7 @@
     border-bottom: 5px solid black;
     border-right: 5px solid black;
 }
+
 .aboutHarrison {
     grid-column-start: 4;
     grid-column-end: 4;
@@ -40,6 +42,7 @@
     margin: 0px;
     border-bottom: 5px solid black;
 }
+
 .aboutThomas {
     grid-column-start: 2;
     grid-column-end: 2;
@@ -49,6 +52,7 @@
     margin: 0px;
     border-right: 5px solid black;
 }
+
 .aboutWiley {
     grid-column-start: 4;
     grid-column-end: 4;
@@ -57,6 +61,7 @@
     text-align: left;
     margin: 0px;
 }
+
 .maxPic {
     grid-column-start: 1;
     grid-column-end: 1;
@@ -64,6 +69,7 @@
     grid-row-end: 1;
     border-bottom: 5px solid black;
 }
+
 .harrisonPic {
     grid-column-start: 3;
     grid-column-end: 3;
@@ -71,12 +77,14 @@
     grid-row-end: 1;
     border-bottom: 5px solid black;
 }
+
 .thomasPic {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 2;
     grid-row-end: 2;
 }
+
 .wileyPic {
     grid-column-start: 3;
     grid-column-end: 3;

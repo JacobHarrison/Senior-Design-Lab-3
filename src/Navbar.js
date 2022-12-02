@@ -11,7 +11,7 @@ export default function Navbar() {
         <ul class="customUL">
             <CustomLink href="/" class="tab">Home</CustomLink>
             <CustomLink href="/intro" class="tab">Intro</CustomLink>
-            <CustomLink href="/barton" class="tab">Max Barton</CustomLink>
+            <CustomLink href="/barten" class="tab">Max Barten</CustomLink>
             <CustomLink href="/harrison" class="tab">Jacob Harrison</CustomLink>
             <CustomLink href="/pawlowski" class="tab">Thomas Pawlowski</CustomLink>
             <CustomLink href="/wiley" class="tab">Jacob Wiley</CustomLink>

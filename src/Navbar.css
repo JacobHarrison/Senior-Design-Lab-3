@@ -1,4 +1,4 @@
-﻿.nav {
+﻿﻿.nav {
     margin-left: auto;
     margin-right: auto;
     grid-column-start: 1;
@@ -43,20 +43,20 @@
     align-items: center;
 }
 
-.customUL a::before {
-    content: '';
-    display: block;
-    height: 2.5px;
-    background-color: rgb(253 218 37);
-    position: absolute;
-    top: 0px;
-    width: 0%;
-    transition: all ease-in-out 500ms
-}
+    .customUL a::before {
+        content: '';
+        display: block;
+        height: 2.5px;
+        background-color: rgb(253 218 37);
+        position: absolute;
+        top: 0px;
+        width: 0%;
+        transition: all ease-in-out 500ms
+    }
 
-.customUL a:hover::before {
-    width: 100%;
-}
+    .customUL a:hover::before {
+        width: 100%;
+    }
 
 .tab {
     display: inline-block;
@@ -64,4 +64,3 @@
     padding-bottom: 20px;
     position: relative;
 }
-
